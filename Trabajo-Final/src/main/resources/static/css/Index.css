@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fff;
+}
+.sesion {
+    list-style: none;
+}
+.sesion li {
+    display: inline-block;
+    text-align:right;
+    
+}
+.sesion li a {
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    display: block;
+    text-align: end;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #000000;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.botones li{
+    display: inline-block;
+    margin: 20px 20px;
+}
